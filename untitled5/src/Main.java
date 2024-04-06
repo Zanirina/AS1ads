@@ -154,8 +154,7 @@ public class Main {
     }
 
     public static void task8() {
-//        String s = sc.nextLine();
-        String s = "133fs2";
+        String s = sc.nextLine();
         System.out.println(IsDigit(s) ? "Yes" : "No");
 
     }
@@ -163,7 +162,7 @@ public class Main {
 
 //    Task 9:
 
-    public static int findC(int n, int k) {//Complexity: exponential 0(N^2)
+    public static int findC(int n, int k) {//Complexity: exponential 0(2^N)
         if (k == 0 || k == n) {
             return 1;
         }
